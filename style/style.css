@@ -1,0 +1,141 @@
+#h1{
+  color:teal;
+}
+#container{
+  
+	text-align: center;
+	color: white;
+	padding: 50px;
+	font-size: 20px;
+	font-variant: small-caps;
+	letter-spacing: 20px;
+}
+#container2{
+  
+	text-align: left;
+	border: 6px;
+  border-color: teal;
+ 
+	padding: 50px;
+	font-size: 20px;
+	font-variant: small-caps;
+	letter-spacing: 20px;
+}
+#myInput {
+    
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 50%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+
+    margin-bottom: 12px; /* Add some space below the input */
+  }
+ #input_field{
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 80%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+
+  margin-bottom: 12px; /* Add some space below the input */
+ }
+ #add{
+  width:200px;
+  height: 50px;
+  color:white;
+  border-radius: 15px;
+  background-color: teal;
+ }
+  #myTable {
+    border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width */
+    border: 1px solid #ddd; /* Add a grey border */
+    font-size: 18px; /* Increase font-size */
+  }
+  
+  #myTable th, #myTable td {
+    text-align: left; /* Left-align text */
+    padding: 12px; /* Add padding */
+  }
+  
+  #myTable tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myTable tr.header, #myTable tr:hover {
+    /* Add a grey background color to the table header and on hover */
+    background-color: #f1f1f1;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  #myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 30px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  
+  #myTable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 5px solid teal;
+    font-size: 18px;
+  }
+  
+  #myTable th, #myTable td {
+    text-align: left;
+    padding: 12px;
+  }
+  
+  #myTable tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myTable tr.header, #myTable tr:hover {
+    background-color: white;
+  }
+  #container{
+    height: max-content;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+  #delete{
+    background-color: red;
+    width:100px;
+  height: 50px;
+  color:white;
+  border-radius: 15px;
+  }
+  #edit{
+    background-color: blue;
+    width:100px;
+  height: 50px;
+  color:white;
+  border-radius: 15px;
+  }
+  #done{
+    background-color: green;
+    width:100px;
+  height: 50px;
+  color:white;
+  border-radius: 15px;
+  }
+  #done  {
+    background-color: green;
+}
+
+#done:focus {     
+    background-color:gray;    
+}
